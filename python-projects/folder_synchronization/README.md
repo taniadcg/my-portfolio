@@ -27,8 +27,9 @@ The Folder Synchronizer program ensures that the replica folder is always an exa
 
 ## Usage
 How to run the project:  
+```bash
   python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log
-  
+```
   **Note:** Make sure to specify the 'syncInterval' in seconds.
 
 ## Author:
