@@ -25,15 +25,15 @@ my-portfolio/
 ├── python-projects/                                             # Folder for Python projects
 │   ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for Pose Estimation and Exercise Repetition Counting project
 │   │   ├── README.md                                            # Description of the project
-│   │   ├── analysis.py                                          # Main script for Rep Count
-│   │   ├── requirements.txt                                     # Dependencies for the project
+│   │   ├── pose-estimation-repetition-counting.py               # Main script for Rep Count
+│   |   ├── media                                                # Subfolder for videos of the results
 │   │   └── data/                                                # Folder for datasets used
-│   │       ├── dataset.csv
-│   │       └── dataset2.csv
+│   │       ├── exercise_video.mp4
+│   │       └── poses.csv
 |   |
 │   ├── folder_synchronization/                                  # Subfolder for Folders Synchronization
 │   │   ├── README.md                                            # Description of the project
-│   │   └── analysis.py                                          # Main script for Folders Synchronization
+│   │   └── folder_synchronization.py                            # Main script for Folders Synchronization
 |   |
 │   └── mini-games/                                              # Subfolder for small games
 │       └── snake/                                               # Folder for the Snake game
