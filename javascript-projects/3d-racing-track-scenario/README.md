@@ -58,9 +58,6 @@ cameraTarget = (positionX + cos(rotateAngle), 0.2 + up, positionZ + sin(rotateAn
 ```
 
 ## Usage
-How to run the project:  
-
-## Usage
 
 To use this Jupyter Notebook, follow these steps:
 
