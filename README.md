@@ -32,28 +32,16 @@ my-portfolio/
 │   │       └── poses.csv
 |   |
 │   ├── folder_synchronization/                                  # Subfolder for Folders Synchronization
-│   │   ├── README.md                                            # Description of the project
-│   │   └── folder_synchronization.py                            # Main script for Folders Synchronization
-|   |
-│   └── mini-games/                                              # Subfolder for small games
-│       └── snake/                                               # Folder for the Snake game
-│           ├── README.md                                        # Description of the game
-│           └── snake.py                                         # Game logic
+│       ├── README.md                                            # Description of the project
+│       └── folder_synchronization.py                            # Main script for Folders Synchronization
+|   
 │
-├── javascript-projects/                                         # Folder for JavaScript projects
-│   └── 3d-racing-track-scenario/                                # Subfolder for a simple calculator project
-│       ├── README.md                                            # Description of the calculator
-│       ├── 3d-racing-track-scenario.ipynb                       # Main HTML file
-│       ├── images                                               # Subfolder for images used
-│       └── media                                                # Subfolder for videos of the results
-│
-└── web-projects/                                                # Folder for web development projects
-    └── portfolio-website/                                       # Subfolder for your portfolio website
-       ├── README.md                                             # Description of the website
-       ├── index.html                                            # Main HTML file
-       ├── styles.css                                            # CSS file for styling
-       └── scripts.js                                            # JavaScript file
-
+└── javascript-projects/                                         # Folder for JavaScript projects
+    └── 3d-racing-track-scenario/                                # Subfolder for a simple calculator project
+        ├── README.md                                            # Description of the calculator
+        ├── 3d-racing-track-scenario.ipynb                       # Main HTML file
+        ├── images                                               # Subfolder for images used
+        └── media                                                # Subfolder for videos of the results
 ``` 
 
 To get a local copy up and running follow these simple steps.
