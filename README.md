@@ -26,7 +26,7 @@ my-portfolio/
 │   │       ├── exercise_video.mp4
 │   │       └── poses.csv
 |   |
-│   ├── folder_synchronization/                                  # Subfolder for Folders Synchronization
+│   └── folder_synchronization/                                  # Subfolder for Folders Synchronization
 │       ├── README.md                                            # Description of the project
 │       └── folder_synchronization.py                            # Main script for Folders Synchronization
 |   
