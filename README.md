@@ -11,9 +11,6 @@ This repository contains my programming portfolio, showcasing various projects I
 ### JavaScript Projects
 - **3D Racing Track Scenario**: 3D Modeling and Augmented Reality with JavaScript, WebGL and HTLM.
 
-### Web Projects
-- **Portfolio Website**: A personal website showcasing my skills, projects, and experiences.
-
 ## Getting Started
 
 ## Folder Structure
