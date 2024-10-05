@@ -39,9 +39,9 @@ my-portfolio/
 │           └── snake.py                                         # Game logic
 │
 ├── javascript-projects/                                         # Folder for JavaScript projects
-│   └── simple-calculator/                                       # Subfolder for a simple calculator project
+│   └── 3d-racing-track-scenario/                                # Subfolder for a simple calculator project
 │       ├── README.md                                            # Description of the calculator
-│       ├── index.html                                           # Main HTML file
+│       ├── 3d-racing-track-scenario.ipynb                       # Main HTML file
 │       ├── images                                               # Subfolder for images used
 │       └── media                                                # Subfolder for videos of the results
 │
