@@ -102,31 +102,47 @@ Tânia Gonçalves
 For further information or support, contact gtaniadc@gmail.com.
 
 ## FAQ
-**Q1: What is the purpose of this program?**  
-**A1:** The program synchronizes a source folder with a replica folder, ensuring the replica is an exact copy of the source.
 
-**Q2: How often does the synchronization occur?**  
-**A2:** The synchronization occurs at intervals specified by the 'syncInterval' parameter, which must be entered in seconds.
+## FAQ
 
-**Q3: What happens if a file is deleted from the source folder?**  
-**A3:** If a file is deleted from the source folder, it will also be deleted from the replica folder during the next synchronization.
+**Q1: What is the purpose of the 3D Racing Track Scenario?**  
+**A1:** The purpose of the 3D Racing Track Scenario is to demonstrate 3D modeling and augmented reality using JavaScript, WebGL, and HTML, allowing users to interact with a virtual racing environment.
 
-**Q4: Are subfolders also synchronized?**  
-**A4:** Yes, all subfolders and their contents are synchronized along with the main folder.
+**Q2: What objects are included in the scenario?**  
+**A2:** The scenario includes various objects such as two cars, four benches, trees, and a racing track created using two cylinders.
 
-**Q5: What if a file in the replica folder is modified?**  
-**A5:** If a file in the replica folder is modified, it will be overwritten by the corresponding file from the source folder during the next synchronization.
+**Q3: How can I manipulate the cars in the scenario?**  
+**A3:** The movement of the cars can be controlled using the following keys:
+- **w** - Move forward
+- **s** - Move backward
+- **a** - Rotate left
+- **d** - Rotate right
 
-**Q6: What programming language and environment are used for this program?**  
-**A6:** The program is written in Python 3.9.7 and developed using Spyder in the Anaconda 3 environment.
+**Q4: How do I switch to the car's viewpoint?**  
+**A4:** To switch to the car's viewpoint, press the **c** key. This will follow the same transformations applied to the car.
 
-**Q7: Can I configure the synchronization process?**  
-**A7:** Yes, you can configure the synchronization process by setting the appropriate parameters in the program, such as the source folder, replica folder, and syncInterval.
+**Q5: What keys are used to change the view and lighting?**  
+**A5:** The following keys are used to change the viewpoint, toggle between day and night, and control lights:
+- **p** - Top view (increases Y)
+- **l** - Bottom view (decreases Y)
+- **n** - Toggle day/night
+- **1** - Activate Light 1 (white + RGB)
+- **2** - Activate Light 2 (white + RGB)
 
-**Q8: How do I run the program?**  
-**A8:** You can run the program by executing the following command:  
-python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log  
-Make sure to specify the 'syncInterval' in seconds.
+**Q6: How is the viewpoint controlled?**  
+**A6:** The viewpoint is controlled by adjusting several variables, including `rotateAngle`, `positionX`, `positionY`, and `up`. These adjustments are made based on user input to provide an immersive experience.
 
-**Q9: Who should I contact for further information or support?**  
-**A9:** For further information or support, you can contact the project maintainer at gtaniadc@gmail.com.
+**Q7: What happens when I press the "c" key?**  
+**A7:** Pressing the "c" key allows you to switch to the car's viewpoint, following the transformations applied to the car, providing a first-person perspective of the racing environment.
+
+**Q8: What programming languages and technologies are used in this project?**  
+**A8:** This project is developed using JavaScript for scripting, WebGL for rendering graphics, and HTML for structuring the web application.
+
+**Q9: How do I run the Jupyter Notebook associated with this project?**  
+**A9:** To run the Jupyter Notebook, follow these steps:
+1. Navigate to the folder where the Jupyter Notebook file is located.
+2. Launch Jupyter Notebook by running `jupyter notebook` in your terminal.
+3. Open the notebook file and run the cells in order by pressing `Shift + Enter`.
+
+**Q10: Who should I contact for further information or support?**  
+**A10:** For further information or support, you can contact the project maintainer at gtaniadc@gmail.com.
