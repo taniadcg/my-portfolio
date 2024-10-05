@@ -29,9 +29,7 @@ To run the project, use the following command:
 ```bash
 python pose_estimation_repetition_counting.py
 ```
-
-## Note
-Make sure to adapt the paths to access the video/images of the exercise you want to analyze for pose estimation and repetition counting.
+**Note**: Make sure to adapt the paths to access the video/images of the exercise you want to analyze for pose estimation and repetition counting.
 
 ## Author
 Tânia Gonçalves
