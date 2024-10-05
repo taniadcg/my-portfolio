@@ -9,7 +9,7 @@ This repository contains my programming portfolio, showcasing various projects I
 - **Folders Synchronization**: Synchronizes two folders.
 
 ### JavaScript Projects
-- **3D Modeling and Augmented Reality with JavaScript and WebGL**: A web-based Racing Track Scenario implemented with JavaScript, WebGL and HTLM.
+- **3D Racing Track Scenario**: 3D Modeling and Augmented Reality with JavaScript, WebGL and HTLM.
 
 ### Web Projects
 - **Portfolio Website**: A personal website showcasing my skills, projects, and experiences.
