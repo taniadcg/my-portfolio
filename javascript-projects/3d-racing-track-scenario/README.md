@@ -18,10 +18,8 @@
 - **Development Environment**: Jupyter Notebook
 
 ## Features
-- **Full Synchronization**: Makes the replica folder an identical copy of the source folder.
-# 6.5 - Scenario
 
-In this scenario, all previously created objects were added, such as two cars, four benches, some trees, and other objects. The track was created using two cylinders.
+In this scenario, some objects were added, such as two cars, four benches, some trees, and other objects. The track was created using two cylinders.
 
 For the movement of the cars, a transformation was applied, consisting of a translation to the origin + rotation + translation from the origin. The rotation is around the Y axis, so when performing the rotation and translating from the origin to the next position, these actions are based on the angles **angRotation1** and **angRotation2** for cars 1 and 2, respectively.
 
@@ -57,7 +55,7 @@ The previous variables allow defining the **cameraPosition** and **cameraTarget*
 ```plaintext
 cameraPosition = (positionX, 0.2 + up, positionZ);
 cameraTarget = (positionX + cos(rotateAngle), 0.2 + up, positionZ + sin(rotateAngle));
-
+```
 
 ## Usage
 How to run the project:  
