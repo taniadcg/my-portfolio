@@ -8,7 +8,7 @@ This repository contains my programming portfolio, showcasing various projects I
 - **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
 
 ### JavaScript Projects
-- **Simple Calculator**: A web-based calculator that performs basic arithmetic operations.
+- **3D Modeling and Augmented Reality with JavaScript and WebGL**: A web-based Racing Track Scenario implemented with JavaScript, WebGL and HTLM.
 
 ### Web Projects
 - **Portfolio Website**: A personal website showcasing my skills, projects, and experiences.
