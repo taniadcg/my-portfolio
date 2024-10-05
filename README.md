@@ -1,6 +1,10 @@
-# my-portfolio
-my-portfolio
+# My Portfolio
 
+This repository contains my programming portfolio, showcasing various projects I've worked on in different languages and frameworks. Below is an overview of the folder structure and the projects included.
+
+## Folder Structure
+
+```
 my-portfolio/
 │
 ├── README.md                                                    # Main overview of your portfolio
@@ -31,5 +35,25 @@ my-portfolio/
        ├── index.html                                            # Main HTML file
        ├── styles.css                                            # CSS file for styling
        └── scripts.js                                            # JavaScript file
- 
+
+``` 
+
+## Overview of Projects
+
+### Python Projects
+- **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
+
+### JavaScript Projects
+- **Simple Calculator**: A web-based calculator that performs basic arithmetic operations.
+
+### Web Projects
+- **Portfolio Website**: A personal website showcasing my skills, projects, and experiences.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/yourusername/my-portfolio.git
 
