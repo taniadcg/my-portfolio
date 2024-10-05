@@ -30,9 +30,11 @@ my-portfolio/
 │   │   └── data/                                                # Folder for datasets used
 │   │       ├── dataset.csv
 │   │       └── dataset2.csv
+|   |
 │   ├── folder_synchronization/                                  # Subfolder for Folders Synchronization
 │   │   ├── README.md                                            # Description of the project
-│   │   ├── analysis.py                                          # Main script for Folders Synchronization
+│   │   └── analysis.py                                          # Main script for Folders Synchronization
+|   |
 │   └── mini-games/                                              # Subfolder for small games
 │       └── snake/                                               # Folder for the Snake game
 │           ├── README.md                                        # Description of the game
@@ -46,7 +48,7 @@ my-portfolio/
 │       └── media                                                # Subfolder for videos of the results
 │
 └── web-projects/                                                # Folder for web development projects
-    ├── portfolio-website/                                       # Subfolder for your portfolio website
+    └── portfolio-website/                                       # Subfolder for your portfolio website
        ├── README.md                                             # Description of the website
        ├── index.html                                            # Main HTML file
        ├── styles.css                                            # CSS file for styling
