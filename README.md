@@ -11,8 +11,6 @@ This repository contains my programming portfolio, showcasing various projects I
 ### JavaScript Projects
 - **3D Racing Track Scenario**: 3D Modeling and Augmented Reality with JavaScript, WebGL and HTLM.
 
-## Getting Started
-
 ## Folder Structure
 
 ```
@@ -40,6 +38,8 @@ my-portfolio/
         ├── images                                               # Subfolder for images used
         └── media                                                # Subfolder for videos of the results
 ``` 
+
+## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
