@@ -1,5 +1,4 @@
-# Folders Synchronization
-Synchronizes two folders 
+# Pose Estimation and Repetition Counting
 
 ## Table of Contents
 1. [Description](#description)
@@ -11,7 +10,7 @@ Synchronizes two folders
 7. [FAQ](#faq)
 
 ## Description
-The Folder Synchronizer program ensures that the replica folder is always an exact copy of the source folder.
+This project performs pose estimation and repetition counting using the Mediapipe library. It analyzes video input to track poses and count repetitions of exercises.
 
 ## Program and Version
 - **Programming Language**: Python
@@ -19,50 +18,52 @@ The Folder Synchronizer program ensures that the replica folder is always an exa
 - **Development Environment**: Spyder (Anaconda 3)
 
 ## Features
-- **Full Synchronization**: Makes the replica folder an identical copy of the source folder.
-- **Add Files**: Copies any new files from the source to the replica.
-- **Delete Files**: Removes files from the replica if they no longer exist in the source.
-- **Update Files**: Updates files in the replica if they have been changed in the source.
-- **Handle Subfolders**: Ensures all subfolders and their contents are synchronized.
+- **Pose Estimation**: Utilizes Mediapipe's BlazePose for real-time pose tracking.
+- **Repetition Counting**: Counts repetitions of specific exercises based on pose classification.
+- **Create Plot**: Generates a plot showing pose classifications over time.
+- **Create Video**: Outputs a video with visualized pose estimation and repetition counting.
+- **Create CSV File**: Saves frames when pose changes occur to a CSV file.
 
 ## Usage
-How to run the project:  
-  python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log
-  
-  **Note:** Make sure to specify the 'syncInterval' in seconds.
+To run the project, use the following command:  
+```bash
+python pose_estimation_repetition_counting.py
+```
 
-## Author:
+## Note
+Make sure to adapt the paths to access the video/images of the exercise you want to analyze for pose estimation and repetition counting.
+
+## Author
 Tânia Gonçalves
 
-## Contact:
-For further information or support, contact gtaniadc@gmail.com.
+## Contact
+For further information or support, contact [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
 
 ## FAQ
+
 **Q1: What is the purpose of this program?**  
-**A1:** The program synchronizes a source folder with a replica folder, ensuring the replica is an exact copy of the source.
+**A1:** The program performs pose estimation and counts repetitions of exercises by analyzing video input using the Mediapipe library.
 
-**Q2: How often does the synchronization occur?**  
-**A2:** The synchronization occurs at intervals specified by the 'syncInterval' parameter, which must be entered in seconds.
+**Q2: What libraries does this project use?**  
+**A2:** The project uses Mediapipe for pose estimation and OpenCV for video processing.
 
-**Q3: What happens if a file is deleted from the source folder?**  
-**A3:** If a file is deleted from the source folder, it will also be deleted from the replica folder during the next synchronization.
+**Q3: How do I adapt the input paths?**  
+**A3:** Modify the `input_path` and `pose_samples_folder` variables in the code to point to the location of your video files and pose class CSVs.
 
-**Q4: Are subfolders also synchronized?**  
-**A4:** Yes, all subfolders and their contents are synchronized along with the main folder.
+**Q4: What output files does the program generate?**  
+**A4:** The program generates a video file showing pose estimation and repetition counting, a plot image of classifications, and a CSV file logging frames where pose changes occur.
 
-**Q5: What if a file in the replica folder is modified?**  
-**A5:** If a file in the replica folder is modified, it will be overwritten by the corresponding file from the source folder during the next synchronization.
+**Q5: How does the repetition counting work?**  
+**A5:** Repetition counting is done by tracking specific poses over time and determining when the user completes a full repetition based on defined thresholds.
 
-**Q6: What programming language and environment are used for this program?**  
-**A6:** The program is written in Python 3.9.7 and developed using Spyder in the Anaconda 3 environment.
+**Q6: Can I modify the exercises analyzed by the program?**  
+**A6:** Yes, you can change the `class_name` variable in the code to analyze different exercises. Ensure you have the corresponding pose data available.
 
-**Q7: Can I configure the synchronization process?**  
-**A7:** Yes, you can configure the synchronization process by setting the appropriate parameters in the program, such as the source folder, replica folder, and syncInterval.
+**Q7: How can I visualize the results?**  
+**A7:** The program creates a video output that visually indicates the detected poses and counts, along with a plot of pose classifications.
 
-**Q8: How do I run the program?**  
-**A8:** You can run the program by executing the following command:  
-python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log  
-Make sure to specify the 'syncInterval' in seconds.
+**Q8: What should I do if I encounter errors while running the code?**  
+**A8:** Check that all paths are correctly set and that you have all required libraries installed. If issues persist, refer to the error messages for troubleshooting.
 
 **Q9: Who should I contact for further information or support?**  
-**A9:** For further information or support, you can contact the project maintainer at gtaniadc@gmail.com.
+**A9:** For further information or support, you can contact the project maintainer at [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
