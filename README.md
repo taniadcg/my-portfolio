@@ -6,6 +6,7 @@ This repository contains my programming portfolio, showcasing various projects I
 
 ### Python Projects
 - **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
+- **Folders Synchronization**: Synchronizes two folders.
 
 ### JavaScript Projects
 - **3D Modeling and Augmented Reality with JavaScript and WebGL**: A web-based Racing Track Scenario implemented with JavaScript, WebGL and HTLM.
@@ -22,13 +23,16 @@ my-portfolio/
 │
 ├── README.md                                                    # Main overview of your portfolio
 ├── python-projects/                                             # Folder for Python projects
-│   ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for data analysis project
+│   ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for Pose Estimation and Exercise Repetition Counting project
 │   │   ├── README.md                                            # Description of the project
 │   │   ├── analysis.py                                          # Main script for Rep Count
 │   │   ├── requirements.txt                                     # Dependencies for the project
 │   │   └── data/                                                # Folder for datasets used
 │   │       ├── dataset.csv
 │   │       └── dataset2.csv
+│   ├── folder_synchronization/                                  # Subfolder for Folders Synchronization
+│   │   ├── README.md                                            # Description of the project
+│   │   ├── analysis.py                                          # Main script for Folders Synchronization
 │   └── mini-games/                                              # Subfolder for small games
 │       └── snake/                                               # Folder for the Snake game
 │           ├── README.md                                        # Description of the game
@@ -40,7 +44,6 @@ my-portfolio/
 │       ├── index.html                                           # Main HTML file
 │       ├── script.js                                            # JavaScript file for functionality
 │       └── styles.css                                           # CSS file for styling
-
 │
 └── web-projects/                                                # Folder for web development projects
     ├── portfolio-website/                                       # Subfolder for your portfolio website
