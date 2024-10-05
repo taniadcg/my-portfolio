@@ -100,8 +100,6 @@ For further information or support, contact gtaniadc@gmail.com.
 
 ## FAQ
 
-## FAQ
-
 **Q1: What is the purpose of the 3D Racing Track Scenario?**  
 **A1:** The purpose of the 3D Racing Track Scenario is to demonstrate 3D modeling and augmented reality using JavaScript, WebGL, and HTML, allowing users to interact with a virtual racing environment.
 
