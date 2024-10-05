@@ -42,8 +42,8 @@ my-portfolio/
 │   └── simple-calculator/                                       # Subfolder for a simple calculator project
 │       ├── README.md                                            # Description of the calculator
 │       ├── index.html                                           # Main HTML file
-│       ├── script.js                                            # JavaScript file for functionality
-│       └── styles.css                                           # CSS file for styling
+│       ├── images                                               # Subfolder for images used
+│       └── media                                                # Subfolder for videos of the results
 │
 └── web-projects/                                                # Folder for web development projects
     ├── portfolio-website/                                       # Subfolder for your portfolio website
