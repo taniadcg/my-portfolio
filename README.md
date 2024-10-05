@@ -2,6 +2,19 @@
 
 This repository contains my programming portfolio, showcasing various projects I've worked on in different languages and frameworks. Below is an overview of the folder structure and the projects included.
 
+## Overview of Projects
+
+### Python Projects
+- **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
+
+### JavaScript Projects
+- **Simple Calculator**: A web-based calculator that performs basic arithmetic operations.
+
+### Web Projects
+- **Portfolio Website**: A personal website showcasing my skills, projects, and experiences.
+
+## Getting Started
+
 ## Folder Structure
 
 ```
@@ -37,19 +50,6 @@ my-portfolio/
        └── scripts.js                                            # JavaScript file
 
 ``` 
-
-## Overview of Projects
-
-### Python Projects
-- **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
-
-### JavaScript Projects
-- **Simple Calculator**: A web-based calculator that performs basic arithmetic operations.
-
-### Web Projects
-- **Portfolio Website**: A personal website showcasing my skills, projects, and experiences.
-
-## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
