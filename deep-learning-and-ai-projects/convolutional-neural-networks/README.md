@@ -1,5 +1,4 @@
-# Folders Synchronization
-Synchronizes two folders 
+# CNN for CIFAR-10 Image Classification
 
 ## Table of Contents
 1. [Description](#description)
@@ -11,58 +10,72 @@ Synchronizes two folders
 7. [FAQ](#faq)
 
 ## Description
-The Folder Synchronizer program ensures that the replica folder is always an exact copy of the source folder.
+This project implements a Convolutional Neural Network (CNN) from scratch to classify images from the CIFAR-10 dataset. The model is trained to recognize 10 distinct classes of objects, including airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. Various techniques like dropout, batch normalization, and data augmentation are used to improve model accuracy.
 
 ## Program and Version
 - **Programming Language**: Python
-- **Version**: 3.9.7
-- **Development Environment**: Spyder (Anaconda 3)
+- **Version**: 3.x
+- **Development Environment**: Google Colab / Jupyter Notebook
 
 ## Features
-- **Full Synchronization**: Makes the replica folder an identical copy of the source folder.
-- **Add Files**: Copies any new files from the source to the replica.
-- **Delete Files**: Removes files from the replica if they no longer exist in the source.
-- **Update Files**: Updates files in the replica if they have been changed in the source.
-- **Handle Subfolders**: Ensures all subfolders and their contents are synchronized.
+- **Custom CNN Architecture**: A deep learning model built from scratch for CIFAR-10 classification.
+- **Model Evaluation**: Utilizes metrics such as mean-Class Accuracy (mCA), F1-Score, and Confusion Matrix to assess the model's performance.
+- **Data Augmentation**: Enhances training with techniques like flipping, cropping, and normalization.
+- **Dropout and Regularization**: Prevents overfitting by implementing dropout layers and batch normalization.
+- **Model Saving**: Saves the trained CNN model for later use.
 
 ## Usage
-How to run the project:  
-  python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log
-  
-  **Note:** Make sure to specify the 'syncInterval' in seconds.
+To run the project, follow these steps:
 
-## Author:
-Tânia Gonçalves
+1. **Clone the repository** and navigate to the project folder:
+   ```bash
+   git clone https://github.com/yourusername/cnn-cifar10-project.git
+   cd cnn-cifar10-project
+   ```
+2. **Install the required dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Contact:
-For further information or support, contact gtaniadc@gmail.com.
+3. **Download the CIFAR-10 dataset** and run the notebook:
+Open the cnn_cifar10_classification.ipynb notebook in Google Colab or Jupyter Notebook.
+Follow the notebook's instructions to train the CNN and evaluate the results.
+
+4. **Train the model**: Run the notebook cells to download the dataset, build the CNN model, and train it using CIFAR-10.
+
+5. **Model Evaluation**: After training, the notebook will output metrics such as accuracy, F1-Score, and display the confusion matrix.
+
+## Author
+[Your Name]
+
+## Contact
+For further information or support, contact [your.email@example.com](mailto:your.email@example.com).
 
 ## FAQ
-**Q1: What is the purpose of this program?**  
-**A1:** The program synchronizes a source folder with a replica folder, ensuring the replica is an exact copy of the source.
 
-**Q2: How often does the synchronization occur?**  
-**A2:** The synchronization occurs at intervals specified by the 'syncInterval' parameter, which must be entered in seconds.
+**Q1: What is the purpose of this project?**  
+**A1:** The project aims to build a custom Convolutional Neural Network (CNN) from scratch to classify images from the CIFAR-10 dataset.
 
-**Q3: What happens if a file is deleted from the source folder?**  
-**A3:** If a file is deleted from the source folder, it will also be deleted from the replica folder during the next synchronization.
+**Q2: What libraries does this project use?**  
+**A2:** The project primarily uses PyTorch for building the CNN, torchvision for dataset handling, and matplotlib for plotting results.
 
-**Q4: Are subfolders also synchronized?**  
-**A4:** Yes, all subfolders and their contents are synchronized along with the main folder.
+**Q3: How do I adjust hyperparameters?**  
+**A3:** You can modify hyperparameters such as learning rate, batch size, and number of epochs directly in the notebook, in the model training section.
 
-**Q5: What if a file in the replica folder is modified?**  
-**A5:** If a file in the replica folder is modified, it will be overwritten by the corresponding file from the source folder during the next synchronization.
+**Q4: How do I save my trained model?**  
+**A4:** The notebook includes code to save the trained model as a `.pth` file, which can be used for future predictions.
 
-**Q6: What programming language and environment are used for this program?**  
-**A6:** The program is written in Python 3.9.7 and developed using Spyder in the Anaconda 3 environment.
+**Q5: Can I modify the CNN architecture?**  
+**A5:** Yes, you can modify the number of layers, add/remove convolutional layers, change activation functions, or introduce new regularization methods like dropout or batch normalization in the notebook.
 
-**Q7: Can I configure the synchronization process?**  
-**A7:** Yes, you can configure the synchronization process by setting the appropriate parameters in the program, such as the source folder, replica folder, and syncInterval.
+**Q6: What is the dataset used in this project?**  
+**A6:** The project uses the CIFAR-10 dataset, a collection of 60,000 32x32 color images categorized into 10 different classes.
 
-**Q8: How do I run the program?**  
-**A8:** You can run the program by executing the following command:  
-python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log  
-Make sure to specify the 'syncInterval' in seconds.
+**Q7: How do I visualize the model's performance?**  
+**A7:** The notebook includes visualizations such as loss and accuracy curves, as well as a confusion matrix to display the model's classification performance.
+
+**Q8: How can I improve the model's accuracy?**  
+**A8:** You can try modifying the architecture (e.g., adding layers, using different activation functions), adjusting hyperparameters, or using advanced techniques like learning rate scheduling or early stopping.
 
 **Q9: Who should I contact for further information or support?**  
-**A9:** For further information or support, you can contact the project maintainer at gtaniadc@gmail.com.
+**A9:** For any questions or issues, feel free to reach out to the project maintainer at [your.email@example.com](mailto:your.email@example.com).
