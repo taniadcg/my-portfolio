@@ -61,20 +61,17 @@ For further information or support, contact [gtaniadc@gmail.com](mailto:gtaniadc
 **Q3: How do I adjust hyperparameters?**  
 **A3:** You can modify hyperparameters such as learning rate, batch size, and number of epochs directly in the notebook, in the model training section.
 
-**Q4: How do I save my trained model?**  
-**A4:** The notebook includes code to save the trained model as a `.pth` file, which can be used for future predictions.
+**Q4: Can I modify the CNN architecture?**  
+**A4:** Yes, you can modify the number of layers, add/remove convolutional layers, change activation functions, or introduce new regularization methods like dropout or batch normalization in the notebook.
 
-**Q5: Can I modify the CNN architecture?**  
-**A5:** Yes, you can modify the number of layers, add/remove convolutional layers, change activation functions, or introduce new regularization methods like dropout or batch normalization in the notebook.
+**Q5: What is the dataset used in this project?**  
+**A5:** The project uses the CIFAR-10 dataset, a collection of 60,000 32x32 color images categorized into 10 different classes.
 
-**Q6: What is the dataset used in this project?**  
-**A6:** The project uses the CIFAR-10 dataset, a collection of 60,000 32x32 color images categorized into 10 different classes.
+**Q6: How do I visualize the model's performance?**  
+**A6:** The notebook includes visualizations such as loss and accuracy curves, as well as a confusion matrix to display the model's classification performance.
 
-**Q7: How do I visualize the model's performance?**  
-**A7:** The notebook includes visualizations such as loss and accuracy curves, as well as a confusion matrix to display the model's classification performance.
+**Q7: How can I improve the model's accuracy?**  
+**A7:** You can try modifying the architecture (e.g., adding layers, using different activation functions), adjusting hyperparameters, or using advanced techniques like learning rate scheduling or early stopping.
 
-**Q8: How can I improve the model's accuracy?**  
-**A8:** You can try modifying the architecture (e.g., adding layers, using different activation functions), adjusting hyperparameters, or using advanced techniques like learning rate scheduling or early stopping.
-
-**Q9: Who should I contact for further information or support?**  
-**A9:** For any questions or issues, feel free to reach out to the project maintainer at [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
+**Q8: Who should I contact for further information or support?**  
+**A8:** For any questions or issues, feel free to reach out to the project maintainer at [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
