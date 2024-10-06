@@ -21,10 +21,11 @@ my-portfolio/
 │   ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for Pose Estimation and Exercise Repetition Counting project
 │   │   ├── README.md                                            # Description of the project
 │   │   ├── pose-estimation-repetition-counting.py               # Main script for Rep Count
-│   |   ├── media                                                # Subfolder for videos of the results
-│   │   └── data/                                                # Folder for datasets used
-│   │       ├── exercise_video.mp4
-│   │       └── poses.csv
+│   |   ├── data                                                 # Folder for datasets used
+│   │   └── media                                                # Subfolder for videos of the results
+│   │       ├── squats-sample-out.mov                            # Video with pose estimation and repetition counting
+│   │       ├── muda_pose.csv                                    # CSV file with frames where there is pose changing
+│   │       └── plot.png                                         # plot with pose changing
 |   |
 │   └── folder_synchronization/                                  # Subfolder for Folders Synchronization
 │       ├── README.md                                            # Description of the project
