@@ -28,7 +28,7 @@ To run the project, follow these steps:
 
 1. **Clone the repository** and navigate to the project folder:
    ```bash
-   git clone https://github.com/yourusername/cnn-cifar10-project.git
+   git clone https://github.com/taniadcg/cnn-cifar10-project.git
    cd cnn-cifar10-project
    ```
 2. **Install the required dependencies**:
