@@ -12,6 +12,8 @@
 ## Description
 This project focuses on image classification and object detection using the YOLOv3 model and transfer learning techniques on the CIFAR-10 dataset.
 
+**Note:** Some folders and features in this project are still under development and may not be fully implemented. Please check back later for updates, or feel free to explore the current features that are available.
+
 ## Program and Version
 - **Programming Language**: Python
 - **Version**: 3.9.7
