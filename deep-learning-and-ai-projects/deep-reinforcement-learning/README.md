@@ -47,13 +47,6 @@ The following OpenAI Gym environments are used in this project:
   - Adapted a pretrained model (VGG16) without freezing its weights.
 - Successfully obtained a total reward of over 200 in the last 20 episodes.
 
-## Results
-- A detailed report is provided in the `report.pdf` file, including:
-  - Diagrams of network architectures
-  - Performance comparisons of different algorithms
-  - Analysis of hyperparameter impacts
-  - Proposed improvements to the reward model
-
 ## Requirements
 To run this project, ensure you have the following libraries installed:
 
