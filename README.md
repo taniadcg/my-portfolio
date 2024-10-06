@@ -17,6 +17,12 @@ This repository contains my programming portfolio, showcasing various projects I
 my-portfolio/
 │
 ├── README.md                                                    # Main overview of your portfolio
+│
+├── deep-learning-and-ai-projects/                               # Folder for Deep Learning, Machine Learning and Artificial Intelligence Projects
+│   ├── computer-vision-object-classification-detection/         # Subfolder for Computer Vision and Object Classification and Detection Project
+│   ├── convolutional-neural-networks/                           # Subfolder for Convolutional Neural Networks Porject
+│   └── deep-reinforcement-learning/                             # Subfolder for Deep Reinforcement Learning
+│
 ├── python-projects/                                             # Folder for Python projects
 │   ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for Pose Estimation and Exercise Repetition Counting project
 │   │   ├── README.md                                            # Description of the project
