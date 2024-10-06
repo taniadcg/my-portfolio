@@ -27,13 +27,13 @@ my-portfolio/
 ├── README.md                                                    # Main overview of your portfolio
 │
 ├── deep-learning-and-ai-projects/                               # Folder for Deep Learning, Machine Learning and Artificial Intelligence Projects
-│   ├── computer-vision-object-classification-detection/         # Subfolder for Computer Vision and Object Classification and Detection Project
-│   │   ├──                                                
-│   │   └── media
 │   ├── convolutional-neural-networks/                           # Subfolder for Convolutional Neural Networks Porject
-│   │   ├── cnn_cifar10_classification.ipynb                                              
+│   │   ├── cnn_cifar10_classification.ipynb                                                 
 │   │   └── media
-│   └── deep-reinforcement-learning/                             # Subfolder for Deep Reinforcement Learning
+│   ├── deep-reinforcement-learning/                             # Subfolder for Deep Reinforcement Learning
+│   │   ├──                                              
+│   │   └── media
+│   └── image-classification-detection-yolo-cifar10/             # Subfolder for Object Classification and Detection Project
 │       ├──                                                
 │       └── media
 │
