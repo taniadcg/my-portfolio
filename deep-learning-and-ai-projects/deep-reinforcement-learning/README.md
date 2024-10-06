@@ -1,12 +1,24 @@
 # Deep Reinforcement Learning: CartPole and CarRacing Environments
 
-## Introduction
+## Table of Contents
+1. [Description](#description)
+2. [Program and Version](#program-and-version)
+3. [Implementation](#implementation)
+4. [Usage](#usage)
+5. [Author](#author)
+6. [Contact](#contact)
+7. [FAQ](#faq)
+
+## Description
 This project demonstrates the application of Deep Reinforcement Learning (DeepRL) techniques to control agents in two simulation environments: **CartPole-v0** and **CarRacing-v0**. The project includes a detailed analysis of different reinforcement learning algorithms, including DQN, Double DQN, and Double Dueling DQN, utilizing both affordance-based and image-based state representations.
 
-## Project Status
 **Note:** Some folders and features in this project are still under development and may not be fully implemented. Please check back later for updates, or feel free to explore the current features that are available.
 
-## Simulation Environments 
+## Program and Version
+
+## Implementation
+
+### Simulation Environments 
 The following OpenAI Gym environments are used in this project:
 
 - **CartPole-v0:** 
@@ -31,7 +43,6 @@ The following OpenAI Gym environments are used in this project:
     - +1000/N for every new track tile visited (N: total tiles visited)
     - -100 if the car goes off the track
 
-## Implementation
 ### Affordance-based State Representation (CartPole-v0)
 - Implemented a Deep Q-Network (DQN) to model the CartPole environment.
 - Techniques used include:
