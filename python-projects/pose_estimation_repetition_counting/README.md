@@ -32,7 +32,7 @@ python pose_estimation_repetition_counting.py
 **Note**: Make sure to adapt the paths to access the video/images of the exercise you want to analyze for pose estimation and repetition counting.
 
 ## Author
-Tânia Gonçalves
+Tânia Gonçalves 
 
 ## Contact
 For further information or support, contact [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
