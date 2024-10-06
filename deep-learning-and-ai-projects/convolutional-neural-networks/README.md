@@ -14,7 +14,6 @@ This project implements a Convolutional Neural Network (CNN) from scratch to cla
 
 ## Program and Version
 - **Programming Language**: Python
-- **Version**: 3.x
 - **Development Environment**: Google Colab / Jupyter Notebook
 
 ## Features
@@ -38,18 +37,18 @@ To run the project, follow these steps:
    ```
 
 3. **Download the CIFAR-10 dataset** and run the notebook:
-Open the cnn_cifar10_classification.ipynb notebook in Google Colab or Jupyter Notebook.
-Follow the notebook's instructions to train the CNN and evaluate the results.
+- Open the cnn_cifar10_classification.ipynb notebook in Google Colab or Jupyter Notebook.
+- Follow the notebook's instructions to train the CNN and evaluate the results.
 
 4. **Train the model**: Run the notebook cells to download the dataset, build the CNN model, and train it using CIFAR-10.
 
 5. **Model Evaluation**: After training, the notebook will output metrics such as accuracy, F1-Score, and display the confusion matrix.
 
 ## Author
-[Your Name]
+Tânia Gonçalves
 
 ## Contact
-For further information or support, contact [your.email@example.com](mailto:your.email@example.com).
+For further information or support, contact [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
 
 ## FAQ
 
@@ -78,4 +77,4 @@ For further information or support, contact [your.email@example.com](mailto:your
 **A8:** You can try modifying the architecture (e.g., adding layers, using different activation functions), adjusting hyperparameters, or using advanced techniques like learning rate scheduling or early stopping.
 
 **Q9: Who should I contact for further information or support?**  
-**A9:** For any questions or issues, feel free to reach out to the project maintainer at [your.email@example.com](mailto:your.email@example.com).
+**A9:** For any questions or issues, feel free to reach out to the project maintainer at [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
