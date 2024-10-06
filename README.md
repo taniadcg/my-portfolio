@@ -23,28 +23,29 @@ my-portfolio/
 │   ├── convolutional-neural-networks/                           # Subfolder for Convolutional Neural Networks Porject
 │   └── deep-reinforcement-learning/                             # Subfolder for Deep Reinforcement Learning
 │
-├── python-projects/                                             # Folder for Python projects
-│   ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for Pose Estimation and Exercise Repetition Counting project
-│   │   ├── README.md                                            # Description of the project
-│   │   ├── pose-estimation-repetition-counting.py               # Main script for Rep Count
-│   |   ├── data                                                 # Folder for datasets used
-│   │   │   └── csvs_out.csv                                     # CSV file with poses estimation of squat exercise (the one used to show the results here) of many participants 
-│   │   └── media                                                # Subfolder for videos of the results
-│   │       ├── squats-sample-out.mov                            # Video with pose estimation and repetition counting
-│   │       ├── muda_pose.csv                                    # CSV file with frames where there is pose changing
-│   │       └── plot.png                                         # plot with pose changing
-|   |
-│   └── folder_synchronization/                                  # Subfolder for Folders Synchronization
-│       ├── README.md                                            # Description of the project
-│       └── folder_synchronization.py                            # Main script for Folders Synchronization
-|   
+├── javascript-projects/                                         # Folder for JavaScript projects
+│   └── 3d-racing-track-scenario/                                # Subfolder for a simple calculator project
+│       ├── README.md                                            # Description of the calculator
+│       ├── 3d-racing-track-scenario.ipynb                       # Main HTML file
+│       ├── images                                               # Subfolder for images used
+│       └── media                                                # Subfolder for videos of the results
 │
-└── javascript-projects/                                         # Folder for JavaScript projects
-    └── 3d-racing-track-scenario/                                # Subfolder for a simple calculator project
-        ├── README.md                                            # Description of the calculator
-        ├── 3d-racing-track-scenario.ipynb                       # Main HTML file
-        ├── images                                               # Subfolder for images used
-        └── media                                                # Subfolder for videos of the results
+└── python-projects/                                             # Folder for Python projects
+    ├── Pose Estimation and Exercise Repetition Counting/        # Subfolder for Pose Estimation and Exercise Repetition Counting project
+    │   ├── README.md                                            # Description of the project
+    │   ├── pose-estimation-repetition-counting.py               # Main script for Rep Count
+    |   ├── data                                                 # Folder for datasets used 
+    │   │   └── csvs_out.csv                                     # CSV file with poses estimation of squat exercise (the one used to show the results here) of many participants 
+    │   └── media                                                # Subfolder for videos of the results
+    │       ├── squats-sample-out.mov                            # Video with pose estimation and repetition counting
+    │       ├── muda_pose.csv                                    # CSV file with frames where there is pose changing
+    │       └── plot.png                                         # plot with pose changing
+    │
+    └── folder_synchronization/                                  # Subfolder for Folders Synchronization
+        ├── README.md                                            # Description of the project
+        └── folder_synchronization.py                            # Main script for Folders Synchronization
+   
+
 ``` 
 
 ## Getting Started
