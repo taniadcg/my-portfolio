@@ -1,5 +1,4 @@
-# Folders Synchronization
-Synchronizes two folders 
+# Image Classification and Detection (YOLOv3) with Transfer Learning Techniques (CIFAR-10)
 
 ## Table of Contents
 1. [Description](#description)
@@ -11,58 +10,53 @@ Synchronizes two folders
 7. [FAQ](#faq)
 
 ## Description
-The Folder Synchronizer program ensures that the replica folder is always an exact copy of the source folder.
+This project focuses on image classification and object detection using the YOLOv3 model and transfer learning techniques on the CIFAR-10 dataset.
 
 ## Program and Version
 - **Programming Language**: Python
 - **Version**: 3.9.7
-- **Development Environment**: Spyder (Anaconda 3)
+- **Development Environment**: Jupyter Notebook / Google Colab
 
 ## Features
-- **Full Synchronization**: Makes the replica folder an identical copy of the source folder.
-- **Add Files**: Copies any new files from the source to the replica.
-- **Delete Files**: Removes files from the replica if they no longer exist in the source.
-- **Update Files**: Updates files in the replica if they have been changed in the source.
-- **Handle Subfolders**: Ensures all subfolders and their contents are synchronized.
+- **Object Classification**: Implements VGG16 or ResNet18 for classifying CIFAR-10 images.
+- **Object Detection**: Utilizes YOLOv3 for real-time object detection.
+- **Transfer Learning**: Applies transfer learning techniques to enhance model performance.
+- **Evaluation Metrics**: Includes accuracy, F1-score, and mean average precision.
 
 ## Usage
-How to run the project:  
-  python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log
-  
-  **Note:** Make sure to specify the 'syncInterval' in seconds.
+To run the project, use the following command:
+```bash
+python image-classification-detection-yolo-cifar10.ipynb
+```
 
-## Author:
+## Author
 Tânia Gonçalves
 
-## Contact:
-For further information or support, contact gtaniadc@gmail.com.
+## Contact
+For further information or support, contact [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
 
 ## FAQ
-**Q1: What is the purpose of this program?**  
-**A1:** The program synchronizes a source folder with a replica folder, ensuring the replica is an exact copy of the source.
 
-**Q2: How often does the synchronization occur?**  
-**A2:** The synchronization occurs at intervals specified by the 'syncInterval' parameter, which must be entered in seconds.
+**Q1: What is the purpose of this project?**  
+**A1:** The project aims to demonstrate the application of transfer learning techniques for image classification and detection using the CIFAR-10 dataset.
 
-**Q3: What happens if a file is deleted from the source folder?**  
-**A3:** If a file is deleted from the source folder, it will also be deleted from the replica folder during the next synchronization.
+**Q2: What datasets are used?**  
+**A2:** This project utilizes the CIFAR-10 dataset for object classification and a subset of the KITTI dataset for object detection.
 
-**Q4: Are subfolders also synchronized?**  
-**A4:** Yes, all subfolders and their contents are synchronized along with the main folder.
+**Q3: Which models are implemented?**  
+**A3:** The project implements VGG16 and ResNet18 for image classification, as well as YOLOv3 for object detection.
 
-**Q5: What if a file in the replica folder is modified?**  
-**A5:** If a file in the replica folder is modified, it will be overwritten by the corresponding file from the source folder during the next synchronization.
+**Q4: What evaluation metrics are used?**  
+**A4:** The evaluation metrics include mean-Class Accuracy (mCA), F1-Score for classification, and mean Average Precision (mAP) for object detection.
 
-**Q6: What programming language and environment are used for this program?**  
-**A6:** The program is written in Python 3.9.7 and developed using Spyder in the Anaconda 3 environment.
+**Q5: How do I adapt the input paths?**  
+**A5:** Modify the dataset paths in the code to point to the location of your CIFAR-10 and KITTI datasets.
 
-**Q7: Can I configure the synchronization process?**  
-**A7:** Yes, you can configure the synchronization process by setting the appropriate parameters in the program, such as the source folder, replica folder, and syncInterval.
+**Q6: Can I run this project in environments other than Jupyter Notebook or Google Colab?**  
+**A6:** Yes, but ensure that all required libraries and dependencies are installed in your environment.
 
-**Q8: How do I run the program?**  
-**A8:** You can run the program by executing the following command:  
-python sync_folders_task.py /path/to/source /path/to/replica syncInterval /path/to/logfile.log  
-Make sure to specify the 'syncInterval' in seconds.
+**Q7: What should I do if I encounter errors while running the code?**  
+**A7:** Check the paths and ensure that all required libraries are installed. Review error messages for troubleshooting.
 
-**Q9: Who should I contact for further information or support?**  
-**A9:** For further information or support, you can contact the project maintainer at gtaniadc@gmail.com.
+**Q8: Who should I contact for further information or support?**  
+**A8:** For further information or support, you can contact me at [gtaniadc@gmail.com](mailto:gtaniadc@gmail.com).
