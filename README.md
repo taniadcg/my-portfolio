@@ -9,6 +9,7 @@ This repository contains my programming portfolio, showcasing various projects I
 - **Computer Vision and Object Classification and Detection Project**: Computer Vision and Object Classification and Detection Project
 - **Convolutional Neural Networks Porject**: Convolutional Neural Networks Porject
 - **Deep Reinforcement Learning**: Deep Reinforcement Learning
+**Note:** Some folders, features and projects in this portfolio are still under development and may not be fully implemented. Please check back later for updates, or feel free to explore the current features that are available.
 
 ### JavaScript Projects
 - **3D Racing Track Scenario**: 3D Modeling and Augmented Reality with JavaScript, WebGL and HTLM.
