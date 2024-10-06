@@ -22,6 +22,7 @@ my-portfolio/
 │   │   ├── README.md                                            # Description of the project
 │   │   ├── pose-estimation-repetition-counting.py               # Main script for Rep Count
 │   |   ├── data                                                 # Folder for datasets used
+│   │   │   └── csvs_out.csv                                     # CSV file with poses estimation of squat exercise (the one used to show the results here) of many participants 
 │   │   └── media                                                # Subfolder for videos of the results
 │   │       ├── squats-sample-out.mov                            # Video with pose estimation and repetition counting
 │   │       ├── muda_pose.csv                                    # CSV file with frames where there is pose changing
