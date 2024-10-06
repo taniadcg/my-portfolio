@@ -4,12 +4,18 @@ This repository contains my programming portfolio, showcasing various projects I
 
 ## Overview of Projects
 
-### Python Projects
-- **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
-- **Folders Synchronization**: Synchronizes two folders.
+
+### Deep Learning and AI Projects
+- **Computer Vision and Object Classification and Detection Project**: Computer Vision and Object Classification and Detection Project
+- **Convolutional Neural Networks Porject**: Convolutional Neural Networks Porject
+- **Deep Reinforcement Learning**: Deep Reinforcement Learning
 
 ### JavaScript Projects
 - **3D Racing Track Scenario**: 3D Modeling and Augmented Reality with JavaScript, WebGL and HTLM.
+
+### Python Projects
+- **Pose Estimation and Exercise Repetition Counting**: This project uses Python to analyze movement data and count exercise repetitions.
+- **Folders Synchronization**: Synchronizes two folders.
 
 ## Folder Structure
 
