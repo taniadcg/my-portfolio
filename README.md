@@ -26,8 +26,14 @@ my-portfolio/
 │
 ├── deep-learning-and-ai-projects/                               # Folder for Deep Learning, Machine Learning and Artificial Intelligence Projects
 │   ├── computer-vision-object-classification-detection/         # Subfolder for Computer Vision and Object Classification and Detection Project
+│   │   ├──                                                
+│   │   └── media
 │   ├── convolutional-neural-networks/                           # Subfolder for Convolutional Neural Networks Porject
+│   │   ├── cnn_cifar10_classification.ipynb                                              
+│   │   └── media
 │   └── deep-reinforcement-learning/                             # Subfolder for Deep Reinforcement Learning
+│       ├──                                                
+│       └── media
 │
 ├── javascript-projects/                                         # Folder for JavaScript projects
 │   └── 3d-racing-track-scenario/                                # Subfolder for a simple calculator project
