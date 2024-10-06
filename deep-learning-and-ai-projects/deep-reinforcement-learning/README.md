@@ -3,6 +3,9 @@
 ## Introduction
 This project demonstrates the application of Deep Reinforcement Learning (DeepRL) techniques to control agents in two simulation environments: **CartPole-v0** and **CarRacing-v0**. The project includes a detailed analysis of different reinforcement learning algorithms, including DQN, Double DQN, and Double Dueling DQN, utilizing both affordance-based and image-based state representations.
 
+## Project Status
+**Note:** Some folders and features in this project are still under development and may not be fully implemented. Please check back later for updates, or feel free to explore the current features that are available.
+
 ## Simulation Environments 
 The following OpenAI Gym environments are used in this project:
 
