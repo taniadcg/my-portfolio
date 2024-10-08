@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio 
 
 This repository contains my programming portfolio, showcasing various projects I've worked on in different languages and frameworks. Below is an overview of the folder structure and the projects included.
 
