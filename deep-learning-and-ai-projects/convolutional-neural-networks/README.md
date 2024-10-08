@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Description](#description)
-2. [Program and Version](#program-and-version)
+2. [Program and Version](#program-and-version) 
 3. [Features](#features)
 4. [Usage](#usage)
 5. [Author](#author)
