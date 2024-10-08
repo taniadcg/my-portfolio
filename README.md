@@ -4,7 +4,7 @@ This repository contains my programming portfolio, showcasing various projects I
 
 ## Overview of Projects
 
-### Deep Learning and AI Projects
+### Deep Learning and AI Projects 
 - **Computer Vision and Object Classification and Detection Project**: Computer Vision and Object Classification and Detection Project
 - **Convolutional Neural Networks Porject**: Convolutional Neural Networks Porject
 - **Deep Reinforcement Learning**: Deep Reinforcement Learning
