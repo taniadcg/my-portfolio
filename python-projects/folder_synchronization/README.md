@@ -1,7 +1,7 @@
 # Folders Synchronization
 Synchronizes two folders 
 
-## Table of Contents
+## Table of Contents 
 1. [Description](#description)
 2. [Program and Version](#program-and-version)
 3. [Features](#features)
