@@ -9,7 +9,7 @@
 6. [Contact](#contact)
 7. [FAQ](#faq) 
 
-## Description
+## Description 
 This project performs pose estimation and repetition counting using the Mediapipe library. It analyzes video input to track poses and count repetitions of exercises.
 
 ## Program and Version
