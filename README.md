@@ -24,7 +24,7 @@ This repository contains my programming portfolio, showcasing various projects I
 ```
 my-portfolio/
 │
-├── README.md                                                    # Main overview of your portfolio
+├── README.md                                                    # Main overview of my portfolio
 │
 ├── deep-learning-and-ai-projects/                               # Folder for Deep Learning, Machine Learning and Artificial Intelligence Projects
 │   ├── convolutional-neural-networks/                           # Subfolder for Convolutional Neural Networks Porject
